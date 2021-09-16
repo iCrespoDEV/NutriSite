@@ -96,7 +96,7 @@ body {
   font-weight: 600;
   font-size: 28px;
 }
-/*===================ШАПКА=============================*/
+/*===================HEADER=============================*/
 .header{
   background: url(../img/logo_bg.png) no-repeat 50%;
   box-shadow : 0px 4px 37px rgba(0, 0, 0, 0.2);
@@ -119,6 +119,28 @@ body {
   height: 72px;
   object-fit: cover;
 }
+
+.sets_pictures{
+  height: 260px;
+  background: linear-gradient(158.25deg, #E1ECDC 27.9%, #FFFFFF 90.49%);
+  box-shadow: 0px 15px 50px rgba(51, 114, 25, 0.2);
+  border-radius: 15px;
+}
+
+.food_img{
+  width: 200px;
+  height: 200px;
+  margin: -40px 35px 0;
+}
+
+.arrow_img{
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 30px 0  0 210px;
+}
+
+/*===================MAIN=============================*/
 
 
 .main__menu{
@@ -158,7 +180,7 @@ body {
 }
 
 
-
+/*===================SECTION 1=============================*/
 
 
 .hero{
@@ -179,7 +201,6 @@ body {
   height: auto;
 }
 
-
 .section-text{
     display: block;
     width: 590px;
@@ -192,7 +213,6 @@ body {
     text-transform: uppercase;
     padding: 17px 47px;
     border-radius: 10px;
-    transition: background 0.1s linear;
     color: #fff;
     margin-top: 30px;
   }
@@ -203,10 +223,13 @@ body {
 
 
 
+/*===================SECTION 2=============================*/
 
-
-
-
+.sets-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .sets{
   padding: 100px 0;
@@ -222,4 +245,45 @@ body {
   left: -150px;
 }
 
+.sets_food{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 0 0px 0;
+}
 
+.food{
+    display: flex;
+    flex-direction: column;
+    margin: 145px 0 0 100px;
+}
+.food_inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.tomato{
+    margin-top: 150px;
+}
+
+
+.cucumber{
+  margin-top: 150px;
+}
+
+.food_text{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.food_tex{
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.text__food{
+  margin: -40px 0 0 20px;
+}
