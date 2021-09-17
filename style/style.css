@@ -219,8 +219,6 @@ body {
   font-size: 28px;
 }
 
-
-
 .section-text {
   width: 590px;
   margin-top: 10px;
@@ -416,4 +414,27 @@ body {
 
 .text__food {
   margin-top: 35px;
+}
+
+
+/*===================SECTION 3=============================*/
+
+.diet {
+  background: url(../img/vektor.png) no-repeat;
+}
+
+.diet-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 140px 0;
+}
+
+.hero-text {
+  width: 815px;
+}
+
+.diet-img{
+  flex: 1;
+  height: auto;
 }
