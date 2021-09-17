@@ -1,109 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutriSite</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>NutriSite</title>
-        <link rel="stylesheet" href="./style/style.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__menu">
+          <a href="/" class="header__logo">
+            <img src="./img/logo.svg" loading="lazy" decoding="async" alt="Logo of NutriSite" width="1" height="1" />
+            <span><span class="text-deco">Nutri</span>Site</span>
+          </a>
+          <ul class="main__menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <body>
+    <main>
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-text">
+            <h1 class="section-title"><span>Eat Healthy And</span> Natural Food</h1>
+            <p class="section-text"
+              >It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its layout the generated Lorem Ipsum is therefore always free from repetition.</p
+            >
+            <a href="#" class="btn btn-primary">Discover Food</a>
+            <a href="#" class="btn btn-secondary">Discover Food</a>
+          </div>
+          <img
+            src="./img/hero-img.webp"
+            alt="bg_main"
+            loading="lazy"
+            decoding="async"
+            class="hero-img"
+            width="1"
+            height="1"
+          />
+        </div>
+      </section>
 
-        <header class="header">
-            <div class="container">
-                <nav class="header__menu">
-                    <a href="/" class="header__logo">
-                        <img src="./img/logo.svg" loading="lazy" decoding="async" alt="Logo of NutriSite" width="1"
-                            height="1" />
-                        <span><span class="text-deco">Nutri</span>Site</span>
-                    </a>
-                    <ul class="main__menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-        
-        <main>
-            
-            
-            <section class="hero">
-                <div class="hero-container container">
-                    <div class="hero-text">
-                        <h1 class="section-title"><span>Eat Healthy And</span> Natural Food</h1>
-                        <span class="section-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout the generated Lorem Ipsum is therefore always free from repetition.</span>
-                        <a href="#" class="btn btn--red">Discover Food</a>
-                    </div>
-                    <img src="./img/hero-img.webp" alt="bg_main" loading="lazy" decoding="async" class="hero-img" width="1"
-                        height="1">
+      <section class="sets">
+        <div class="sets-container container">
+          <div class="sets-text">
+            <h2 class="section-title"><span>Fresh Healthy</span> Delicious Foods</h2>
+            <h3 class="section-subtitle">We Made Fresh and Healthy Foods...</h3>
+            <img
+              src="./img/sets-img.webp"
+              alt="bg"
+              loading="lazy"
+              decoding="async"
+              class="sets-img"
+              width="1"
+              height="1"
+            />
+          </div>
+
+          <div class="sets_food">
+            <div class=" set-card">
+                <img
+                  src="./img/pasta.webp"
+                  alt="food_pasta"
+                  loading="lazy"
+                  decoding="async"
+                  class="food_img"
+                  width="1"
+                  height="1"
+                />
+                
+                <div class="text__food">
+                  <span class="food_text">Black Souce Pasta<span class="food_tex">Mix Vegetabale Pasta...</span></span>
                 </div>
-            </section>
-            
-            
-            <section class="sets">
-                <div class="sets-container container">
-
-                    <div class="sets-text">
-                        <h2 class="section-title"><span>Fresh Healthy</span> Delicious Foods</h2>
-                        <h3 class="section-subtitle">We Made Fresh and Healthy Foods...</h3>
-                        <img src="./img/sets-img.webp" alt="bg" loading="lazy" decoding="async" class="sets-img" width="1"
-                        height="1">
-                    </div>
-
-
-
-                    <div class="sets_food">
-
-                           <div class="food">
-                                
-                                <div class="pasta sets_pictures">
-                                    <img src="./img/pasta.webp" alt="food_pasta" loading="lazy" decoding="async" class="food_img" width="1" height="1">
-                                    <img src="./img/arrow.webp" alt="arrow" loading="lazy" decoding="async" class="arrow_img" width="1" height="1">
-                                        <div class="text__food">
-                                            <span class="food_text">Black Souce Pasta<span class="food_tex">Mix Vegetabale Pasta...</span></span>
-                                        </div>
-                                </div>
-                                <div class="tomato sets_pictures">
-                                    <img src="./img/tomato.webp" alt="food_tomato" loading="lazy" decoding="async" class="food_img" width="1" height="1">
-                                    <img src="./img/arrow.webp" alt="arrow" loading="lazy" decoding="async" class="arrow_img" width="1" height="1">
-                                        <div class="text__food">
-                                            <span class="food_text">White Meat Salad<span class="food_tex">Tomato & Veggies...</span></span>
-                                        </div>
-                                </div>
-                    
-                           </div>
-                            <div class="food_inner">
-
-                                <div class="salad sets_pictures">
-                                    <img src="./img/salad.webp" alt="food_salad" loading="lazy" decoding="async" class="food_img" width="1" height="1">
-                                    <img src="./img/arrow.webp" alt="arrow" loading="lazy" decoding="async" class="arrow_img" width="1" height="1">
-                                            <div class="text__food">
-                                                <span class="food_text">Green Leaf Salad<span class="food_tex">Leaf with tomato & onion...</span></span>
-                                            </div>
-                                </div>
-                                <div class="cucumber sets_pictures">
-                                <img src="./img/cucumber.webp" alt="food_cucumber" loading="lazy" decoding="async" class="food_img" width="1" height="1">
-                                <img src="./img/arrow.webp" alt="arrow" loading="lazy" decoding="async" class="arrow_img" width="1" height="1">
-                                            <div class="text__food">
-                                                <span class="food_text">Cacumber  Salad<span class="food_tex">Cacumber, Orange, etc...</span></span>
-                                            </div>
-                                </div>
-                                            
-                           </div>
-
-                    </div>
-                    
+              </div>
+              <div class=" set-card">
+                <img
+                  src="./img/tomato.webp"
+                  alt="food_tomato"
+                  loading="lazy"
+                  decoding="async"
+                  class="food_img"
+                  width="1"
+                  height="1"
+                />
+                
+                <div class="text__food">
+                  <span class="food_text">White Meat Salad<span class="food_tex">Tomato & Veggies...</span></span>
                 </div>
-            </section>
-        </main>
-    </body>
-
+              </div>
+              <div class=" set-card">
+                <img
+                  src="./img/salad.webp"
+                  alt="food_salad"
+                  loading="lazy"
+                  decoding="async"
+                  class="food_img"
+                  width="1"
+                  height="1"
+                />
+                
+                <div class="text__food">
+                  <span class="food_text"
+                    >Green Leaf Salad<span class="food_tex">Leaf with tomato & onion...</span></span
+                  >
+                </div>
+              </div>
+              <div class=" set-card">
+                <img
+                  src="./img/cucumber.webp"
+                  alt="food_cucumber"
+                  loading="lazy"
+                  decoding="async"
+                  class="food_img"
+                  width="1"
+                  height="1"
+                />
+                
+                <div class="text__food">
+                  <span class="food_text">Cacumber Salad<span class="food_tex">Cacumber, Orange, etc...</span></span>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
