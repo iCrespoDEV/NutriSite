@@ -334,7 +334,11 @@ body {
   height: auto;
 }
 
+<<<<<<< Updated upstream
 /*===================Sets=============================*/
+=======
+/*===================SECTION 2=============================*/
+>>>>>>> Stashed changes
 
 .sets-container {
   display: flex;
@@ -417,7 +421,11 @@ body {
 }
 
 
+<<<<<<< Updated upstream
 /*===================Diet=============================*/
+=======
+/*===================SECTION 3=============================*/
+>>>>>>> Stashed changes
 
 .diet {
   background: url(../img/vektor.png) no-repeat;
@@ -437,6 +445,7 @@ body {
 .diet-img{
   flex: 1;
   height: auto;
+<<<<<<< Updated upstream
 }
 
 /*===================Health=============================*/
@@ -476,3 +485,6 @@ body {
   height: auto;
 }
 
+=======
+}
+>>>>>>> Stashed changes
