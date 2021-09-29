@@ -327,7 +327,7 @@ body {
   justify-content: space-between;
 }
 .hero-text {
-  width: 635px;
+  width: 815px;
 }
 .hero-img {
   flex: 1;
@@ -377,6 +377,9 @@ body {
 .sets_food>:nth-child(odd){
   align-self: flex-end;
 }
+
+/*===================Food=============================*/
+
 .food_img {
   max-width: 100%;
   width: auto;
@@ -429,10 +432,6 @@ body {
   padding: 140px 0;
 }
 
-.hero-text {
-  width: 815px;
-}
-
 .diet-img{
   flex: 1;
   height: auto;
@@ -473,4 +472,30 @@ body {
 .health-img{
   width: 954px;
   height: auto;
+}
+
+/*===================Personal=============================*/
+
+.personal{
+  background: url(..//img/personal_vector.svg) no-repeat;
+  height: 966px;
+}
+
+.main-personal{
+  display: flex;
+}
+
+.personal-text{
+  margin-top: 233px;
+}
+
+.personal-list{
+  list-style-image: url(../img/round1.png);
+  margin: 10px 0 0 25px;
+}
+
+.personal-img{
+  flex: 1;
+  height: auto;
+  margin: 100px 0 0 90px;
 }
