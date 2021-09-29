@@ -334,9 +334,13 @@ body {
   height: auto;
 }
 
+<<<<<<< Updated upstream
 
 /*===================Sets=============================*/
 
+=======
+/*===================SETS=============================*/
+>>>>>>> Stashed changes
 
 .sets-container {
   display: flex;
@@ -345,7 +349,7 @@ body {
 
 .sets {
   padding: 100px 0;
-  background-color: rgba(134, 180, 114, 0.25);
+  background: url(../img/sets_bg.png) no-repeat;
 }
 .sets-text {
   width: 735px;
@@ -420,7 +424,14 @@ body {
 .text__food {
   margin-top: 35px;
 }
+<<<<<<< Updated upstream
 /*===================Diet=============================*/
+=======
+
+
+/*===================DIET=============================*/
+
+>>>>>>> Stashed changes
 .diet {
   background: url(../img/vektor.png) no-repeat;
 }
@@ -497,5 +508,20 @@ body {
 .personal-img{
   flex: 1;
   height: auto;
+<<<<<<< Updated upstream
   margin: 100px 0 0 90px;
 }
+=======
+  position: relative;
+  top: 80px;
+}
+
+/*===================Health=============================*/
+
+.health {
+  background: url(../img/health_bg.png) no-repeat;
+  height: 1410px;
+}
+
+
+>>>>>>> Stashed changes
