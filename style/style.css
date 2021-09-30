@@ -432,7 +432,7 @@ body {
 /*===================Diet=============================*/
 
 .diet {
-  background: url(../img/vektor.png) no-repeat;
+  background: url(../img/vektor.png) no-repeat 50% / cover;
 }
 
 .diet-container {
@@ -440,9 +440,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 140px 0 285px 0;
-}
-
-.diet-text{
   position: relative;
 }
 
