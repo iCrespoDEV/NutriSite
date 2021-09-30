@@ -439,11 +439,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 140px 0;
+  padding: 140px 0 285px 0;
 }
 
-.diet-img {
-  flex: 1;
+.diet-text{
+  position: relative;
+}
+
+.diet-img{
+  position: absolute;
+  left: 790px;
+  margin-top: 150px;
+  min-width: 1010px;
   height: auto;
 }
 
@@ -479,8 +486,9 @@ body {
   font-size: 28px;
 }
 .health-img {
-  width: 954px;
+  min-width: 954px;
   height: auto;
+  position: relative;
 }
 
 
@@ -560,3 +568,5 @@ body {
   min-width: 45px;
   height: auto;
 }
+
+
