@@ -6,8 +6,10 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QytlBfK.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QytlBfK.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
@@ -15,9 +17,11 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QKtlA.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QKtlA.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /* latin-ext */
 @font-face {
@@ -25,8 +29,10 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QytlBfK.woff2) format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QytlBfK.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
@@ -34,9 +40,11 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QKtlA.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
-    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gfbjR61M69yt8Z2QKtlA.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 /*===================Сброс и настройка=============================*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -186,10 +194,10 @@ body {
   font-size: 20px;
   color: #545454;
   font-weight: 400;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
-  padding-bottom: 2000px;
 }
 
 .container {
@@ -241,11 +249,13 @@ body {
   box-shadow: 0px 19px 42px rgba(134, 180, 114, 0.4);
 }
 .btn-secondary {
-  background: linear-gradient(#fff, #fff) no-repeat padding-box, linear-gradient(#98d67d, #569f36) no-repeat border-box;
+  background: linear-gradient(#fff, #fff) no-repeat padding-box,
+    linear-gradient(#98d67d, #569f36) no-repeat border-box;
   color: #86b472;
 }
 .btn-primary:hover {
-  background: linear-gradient(#fff, #fff) no-repeat padding-box, linear-gradient(#98d67d, #569f36) no-repeat border-box;
+  background: linear-gradient(#fff, #fff) no-repeat padding-box,
+    linear-gradient(#98d67d, #569f36) no-repeat border-box;
   color: #86b472;
   box-shadow: none;
 }
@@ -369,10 +379,10 @@ body {
   border-radius: 15px;
   padding: 0 20px 30px;
 }
-.sets_food>:nth-child(even){
+.sets_food > :nth-child(even) {
   align-self: flex-start;
 }
-.sets_food>:nth-child(odd){
+.sets_food > :nth-child(odd) {
   align-self: flex-end;
 }
 
@@ -432,22 +442,22 @@ body {
   padding: 140px 0;
 }
 
-.diet-img{
+.diet-img {
   flex: 1;
   height: auto;
 }
 
 /*===================Health=============================*/
 
-.health{
+.health {
   background: url(../img/health_bg.png) no-repeat;
 }
-.main-health{
+.main-health {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.health-text{
+.health-text {
   margin: 100px 0 94px 0;
 }
 .health-title {
@@ -459,7 +469,7 @@ body {
 .health-title > span {
   font-weight: 700;
 }
-.health-title > h4>span {
+.health-title > h4 > span {
   font-weight: 600;
 }
 .health-subtitle {
@@ -468,47 +478,85 @@ body {
   font-weight: 600;
   font-size: 28px;
 }
-.health-img{
+.health-img {
   width: 954px;
   height: auto;
 }
 
+
+
 /*===================Personal=============================*/
 
-.personal{
+.personal {
   background: url(..//img/personal_vector.svg) no-repeat;
-  height: 966px;
+  padding-bottom: 100px;
 }
 
-.main-personal{
+.main-personal {
   display: flex;
   justify-content: space-between;
 }
 
-.personal-text{
+.personal-text {
   margin-top: 233px;
 }
 
-.personal-list{
+.personal-list {
   list-style-image: url(../img/round1.png);
   margin: 10px 0 0 25px;
 }
 
-.personal-img{
+.personal-img {
   flex: 1;
-  width: 810px;
+  min-width: 810px;
   height: auto;
 }
 
-.persona-img{
+.persona-img {
   margin: 100px 0 0 70px;
 }
 
-/*===================Health=============================*/
+/*===================Footer=============================*/
 
-.health {
-  background: url(../img/health_bg.png) no-repeat;
-  height: 1410px;
+.footer {
+  background: url(../img/footer_img.png) no-repeat;
+  height: auto;
+  font-size: 28px;
+  font-weight: 600;
 }
 
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
 
+.footer-menu {
+  display: flex;
+}
+
+.footer-menu > li {
+  border-left: 3px solid #545454;
+  padding: 0 20px;
+  line-height: 30px;
+}
+
+.footer-menu > li:first-child {
+  border: none;
+}
+
+.footer-link {
+  margin: 20px 0;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-logo > img {
+  min-width: 45px;
+  height: auto;
+}
